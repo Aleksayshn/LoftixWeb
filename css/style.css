@@ -184,7 +184,8 @@ body {
   }
 }
 .wrapper > main {
-  flex: 1 1 auto
+  flex: 1 1 auto;
+  padding-top: calc(5vh + 15px)
 }
 .wrapper > * {
   min-width: 0
@@ -875,7 +876,7 @@ body::after {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 1.25rem 0
+  padding: 0.4rem 0
 }
 .header__container {
   display: flex;
