@@ -118,12 +118,15 @@
                 >
                   <!-- Circle path -->
                   <defs>
-                    <path id="circlePath" d="M 89 15 A 69 69 0 1 1 88.999 15" />
+                    <path
+                      id="circlePath1"
+                      d="M 89 15 A 69 69 0 1 1 88.999 15"
+                    />
                   </defs>
                   <!-- Text around the circle -->
                   <text font-size="18px" fill="rgba(178, 253, 83, 0.1)">
                     <textPath
-                      href="#circlePath"
+                      href="#circlePath1"
                       startOffset="50%"
                       text-anchor="middle"
                       stroke="rgba(178, 253, 83, 0.1)"
@@ -190,14 +193,14 @@
                     <!-- Circle path -->
                     <defs>
                       <path
-                        id="circlePath"
+                        id="circlePath2"
                         d="M 89 15 A 69 69 0 1 1 88.999 15"
                       />
                     </defs>
                     <!-- Text around the circle -->
                     <text font-size="18px" fill="rgba(178, 253, 83, 0.1)">
                       <textPath
-                        href="#circlePath"
+                        href="#circlePath2"
                         startOffset="50%"
                         text-anchor="middle"
                         stroke="rgba(178, 253, 83, 0.1)"
@@ -219,7 +222,6 @@
                 autoplay
                 muted
                 playsinline
-                defaultmuted
               >
                 <source src="./files/animation.mp4" type="video/mp4" />
                 <source src="./files/animation.webm" type="video/webm" />
@@ -435,11 +437,11 @@
                     >Field of activity</label
                   >
                   <input
-                    id="field"
+                    id="field1"
                     data-required
                     autocomplete="off"
-                    type="field"
-                    name="name"
+                    type="field1"
+                    name="field1"
                     data-error="Error"
                     placeholder="What is your field of activity?"
                     class="form-request__input input"
@@ -1341,11 +1343,11 @@
                     >Field of activity</label
                   >
                   <input
-                    id="field"
+                    id="field2"
                     data-required
                     autocomplete="off"
-                    type="field"
-                    name="field"
+                    type="field2"
+                    name="field2"
                     data-error="Error"
                     placeholder="What is your field of activity?"
                     class="form-request__input input"
